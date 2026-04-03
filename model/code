@@ -1,0 +1,33 @@
+#Understand the characteristics of the data - exploratory data analysis
+import pandas as pd
+import numpy as np
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+data = pd.read_csv('data_src/credit_risk_dataset.csv')
+
+data.head()
+
+data.shape
+
+data.describe()
+
+data.info()
+
+#Check for missing values
+data.isnull().sum()
+
+#see the distribution of loan defaults
+
+data["loan_status"].value_counts()
+
+sns.countplot(x='loan_status', data=data)
+plt.title('disribution of loan defaults')
+plt.xlabel('Loan Default')
+plt.ylabel('Count')
+plt.show()
+
+#here 1 indicates loan default and 0 indicates no default. 
+# we find that the dataset is imbalanced with more non-default cases than default cases. 
+# we need to consider this imbalance when using the ml models.
