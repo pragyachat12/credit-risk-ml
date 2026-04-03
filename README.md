@@ -42,9 +42,3 @@ Low Risk: <20%
 Medium Risk: 20–50%  
 High Risk: >50%
 
-## Visualization
-
-Scikit-Learn  
-Matplotlib  
-Seaborn  
-Tableau
