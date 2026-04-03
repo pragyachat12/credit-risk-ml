@@ -4,13 +4,6 @@ This project builds a credit risk prediction model to estimate the probability o
 
 The model is trained on a credit risk dataset containing borrower financial information and loan characteristics.
 
-## Objectives
-
-• Predict probability of default (PD)  
-• Identify key drivers of credit risk  
-• Compare machine learning models  
-• Segment borrowers into risk categories  
-
 ## Dataset
 
 The dataset includes borrower financial information such as:
@@ -27,13 +20,6 @@ Target variable:
 loan_status  
 0 = non-default  
 1 = default
-
-## Methodology
-
-1. Data preprocessing
-2. Exploratory Data Analysis (EDA)
-3. Feature engineering
-4. Model training
 
 Models used:
 
@@ -58,16 +44,6 @@ High Risk: >50%
 
 ## Visualization
 
-Model outputs are visualized using a Tableau dashboard including:
-
-- portfolio risk overview
-- borrower risk segmentation
-- feature importance analysis
-
-## Technologies Used
-
-Python  
-Pandas  
 Scikit-Learn  
 Matplotlib  
 Seaborn  
